@@ -67,7 +67,7 @@ Messages between clusters require 67% consensus from trusted peers of the origin
 1. **Clone the repository**
 
 ```bash
-git clone github.com/maximilianco/dWeb-JS-blockchain
+git clone https://github.com/maximilianco/dWeb-JS-blockchain
 cd dWeb-JS-blockchain
 ```
 
@@ -87,7 +87,7 @@ node dweb.js
 
 Open your browser and navigate to:
 ```
-http://127.0.0.1:1225/desk/
+https://127.0.0.1:1225/desk/
 ```
 
 ---
