@@ -26,7 +26,6 @@ class DecentralizedNetwork {
 
         // Telemetry instance, should be initialized right away.
         this.telemetry = new Telemetry(this);
-        this.telemetry.initialize();
 
         // Start periodic network updates
         this.timerNetworkStats = null;
@@ -37,6 +36,7 @@ class DecentralizedNetwork {
 
     async initialize(callback) {
         await Hasher.initialize();
+        this.telemetry.initialize();
         callback();
     }
 
